@@ -1,2 +1,0 @@
-1.fix the categories button highlight - today 
-2.add the preorder button but everything else is the same - today 
