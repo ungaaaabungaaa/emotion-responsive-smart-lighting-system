@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-zinc-950 text-zinc-100 antialiased;
+  background-image: radial-gradient(circle at 20% 0%, rgba(255, 255, 255, 0.04), transparent 40%);
+}
+
+.card {
+  @apply rounded-2xl border border-white/10 bg-white/[0.04] p-5 shadow-lg shadow-black/30 backdrop-blur;
+}
+
+.label {
+  @apply text-xs font-medium uppercase tracking-wider text-zinc-400;
+}
+
+.btn {
+  @apply rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 text-sm font-medium text-zinc-100 transition hover:bg-white/10 disabled:cursor-not-allowed disabled:opacity-40;
+}
+
+.btn-primary {
+  @apply border-transparent bg-zinc-100 text-zinc-900 hover:bg-white;
+}
+
+.chip {
+  @apply rounded-full border border-white/10 px-2.5 py-0.5 text-xs text-zinc-300;
+}
+
+input[type="range"] {
+  @apply h-1.5 w-full cursor-pointer appearance-none rounded-full bg-white/10 accent-zinc-100;
+}
+
+@keyframes candle {
+  0%, 100% { opacity: 0.9; transform: scale(1); }
+  25% { opacity: 0.75; transform: scale(0.98); }
+  50% { opacity: 1; transform: scale(1.02); }
+  75% { opacity: 0.8; transform: scale(0.99); }
+}
+
+.effect-breathe { animation: breathe var(--effect-duration, 10s) ease-in-out infinite; }
+.effect-pulse { animation: pulse2 var(--effect-duration, 1.5s) ease-in-out infinite; }
+.effect-candle { animation: candle var(--effect-duration, 4s) ease-in-out infinite; }
