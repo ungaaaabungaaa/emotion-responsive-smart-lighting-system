@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ungaaaabungaaa/woocommerce_nextjs_rest_api/main/docs/dashboard-happy.png" alt="Emotion-Responsive Smart Lighting dashboard showing the Sunrise Glow scene" width="900" />
+  <img src="https://raw.githubusercontent.com/ungaaaabungaaa/emotion-responsive-smart-lighting-system/main/docs/dashboard-happy.png" alt="Emotion-Responsive Smart Lighting dashboard showing the Sunrise Glow scene" width="900" />
 </p>
 
 <h1 align="center">Emotion-Responsive Smart Lighting System</h1>
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ungaaaabungaaa/woocommerce_nextjs_rest_api/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/ungaaaabungaaa/woocommerce_nextjs_rest_api/ci.yml?branch=main&label=CI&logo=github" alt="CI status" /></a>
+  <a href="https://github.com/ungaaaabungaaa/emotion-responsive-smart-lighting-system/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/ungaaaabungaaa/emotion-responsive-smart-lighting-system/ci.yml?branch=main&label=CI&logo=github" alt="CI status" /></a>
   <img src="https://img.shields.io/badge/Next.js-14-black?logo=next.js" alt="Next.js 14" />
   <img src="https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white" alt="TypeScript 5" />
   <img src="https://img.shields.io/badge/tests-vitest-6e9f18?logo=vitest&logoColor=white" alt="Vitest" />
@@ -41,7 +41,7 @@ The system continuously senses how the user feels and translates that into light
   - **Webhook**: POSTs each light state as JSON to Home Assistant, Node-RED, an ESP32, or anything else.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ungaaaabungaaa/woocommerce_nextjs_rest_api/main/docs/dashboard-anxious.png" alt="Dashboard showing the Slow Breath scene for an anxious reading" width="900" />
+  <img src="https://raw.githubusercontent.com/ungaaaabungaaa/emotion-responsive-smart-lighting-system/main/docs/dashboard-anxious.png" alt="Dashboard showing the Slow Breath scene for an anxious reading" width="900" />
   <br />
   <em>An anxious reading dims the room to a lavender that breathes at six cycles per minute.</em>
 </p>
